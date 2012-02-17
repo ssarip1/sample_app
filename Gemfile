@@ -7,8 +7,15 @@ gem 'rails', '3.1.3'
 
 gem 'sqlite3'
 
-gem "rspec-rails", ">= 2.8.0.rc1", :group => [:development, :test]
+gem "spork", "~> 0.9.0"
 
+gem "rspec-rails", ">= 2.8.0.rc1", :group => [:development, :test]
+#  gem 'spork', '0.8.4'
+
+group :test do
+  gem "webrat"
+  #gem 'rspec', '2.0.0.beta.20'
+end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
