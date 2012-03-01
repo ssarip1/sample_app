@@ -7,6 +7,10 @@ gem 'rails', '3.1.3'
 
 gem 'sqlite3'
 
+#gem "sprockets-sass", "~> 0.6.1"
+
+gem "sprockets", "~> 2.0.3"
+
 gem "spork", "~> 0.9.0"
 
 gem "rspec-rails", ">= 2.8.0.rc1", :group => [:development, :test]
