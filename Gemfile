@@ -7,6 +7,8 @@ gem 'rails', '3.1.3'
 
 gem 'sqlite3'
 
+gem "annotate", "~> 2.4.0"
+
 #gem "sprockets-sass", "~> 0.6.1"
 
 gem "sprockets", "~> 2.0.3"
