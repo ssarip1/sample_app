@@ -7,7 +7,11 @@ gem 'rails', '3.1.3'
 
 gem 'sqlite3'
 
-gem "annotate", "~> 2.4.0"
+gem 'gravatar_image_tag', '1.0.0.pre2'
+
+#gem "annotate", "~> 2.4.0"
+
+gem 'annotate', '~> 2.4.1.beta'
 
 #gem "sprockets-sass", "~> 0.6.1"
 
@@ -21,6 +25,8 @@ gem "rspec-rails", ">= 2.8.0.rc1", :group => [:development, :test]
 group :test do
   gem "webrat"
   #gem 'rspec', '2.0.0.beta.20'
+
+  gem 'factory_girl_rails', '1.0'
 end
 # Gems used only for assets and not required
 # in production environments by default.
